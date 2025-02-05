@@ -26,6 +26,7 @@ public class SSOUserTestController {
     public ResponseEntity<?> generateToken(@RequestBody SSOUserTestRequest userTestRequest) {
         try {
             SSOUserTest userTest = new SSOUserTest();
+            
             userTest.setSsotype(userTestRequest.getSsotype());
             userTest.setSystemid(userTestRequest.getSystemid());
             userTest.setSystemname(userTestRequest.getSystemname());
@@ -42,9 +43,9 @@ public class SSOUserTestController {
             userTest.setTokenid(userTestRequest.getTokenid());
             
             userTest.setRequestDate(LocalDateTime.now());
-
+    
             SSOUserTest savedUserTest = service.saveSSOUserTest(userTest);
-
+            
             if (savedUserTest != null) {
                 return ResponseEntity.ok().body(
                     new ResponseMessage("I07000", "ทำการเรียบร้อยแล้ว", savedUserTest.getUserid(), savedUserTest.getTokenid())
@@ -56,4 +57,5 @@ public class SSOUserTestController {
             return ResponseEntity.status(500).body(new ResponseMessage("E000001", "ไม่สามารถเชื่อมต่อฐานข้อมูลได้", "", ""));
         }
     }
+    
 }

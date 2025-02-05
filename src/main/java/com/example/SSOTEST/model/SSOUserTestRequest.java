@@ -15,6 +15,7 @@ public class SSOUserTestRequest {
     private String clientlocation;
     private String locationmachinenumber;
     private String tokenid;
+    
     public String getSsotype() {
         return ssotype;
     }
@@ -100,6 +101,6 @@ public class SSOUserTestRequest {
         this.tokenid = tokenid;
     }
 
-    // Getters and Setters
     
 }
+
