@@ -12,7 +12,6 @@ public class ResponseMessage {
         this.responseData = new ResponseData(userId, tokenId);
     }
 
-    // Getters and Setters
     public String getResponseCode() {
         return responseCode;
     }

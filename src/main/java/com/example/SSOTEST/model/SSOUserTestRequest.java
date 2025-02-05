@@ -1,106 +1,106 @@
 package com.example.SSOTEST.model;
 
 public class SSOUserTestRequest {
-    private String ssotype;
-    private String systemid;
-    private String systemname;
-    private String systemtransactions;
-    private String systemprivileges;
-    private String systemusergroup;
-    private String systemlocationgroup;
-    private String userid;
-    private String userfullname;
-    private String userrdofficecode;
-    private String userofficecode;
-    private String clientlocation;
-    private String locationmachinenumber;
-    private String tokenid;
+    private String ssoType;
+    private String systemId;
+    private String systemName;
+    private String systemTransactions;
+    private String systemPrivileges;
+    private String systemUserGroup;
+    private String systemLocationGroup;
+    private String userId;
+    private String userFullName;
+    private String userRdOfficeCode;
+    private String userOfficeCode;
+    private String clientLocation;
+    private String locationMachineNumber;
+    private String tokenId;
     
-    public String getSsotype() {
-        return ssotype;
+    public String getSsoType() {
+        return ssoType;
     }
-    public void setSsotype(String ssotype) {
-        this.ssotype = ssotype;
+    public void setSsoType(String ssoType) {
+        this.ssoType = ssoType;
     }
-    public String getSystemid() {
-        return systemid;
+    public String getSystemId() {
+        return systemId;
     }
-    public void setSystemid(String systemid) {
-        this.systemid = systemid;
+    public void setSystemId(String systemId) {
+        this.systemId = systemId;
     }
-    public String getSystemname() {
-        return systemname;
+    public String getSystemName() {
+        return systemName;
     }
-    public void setSystemname(String systemname) {
-        this.systemname = systemname;
+    public void setSystemName(String systemName) {
+        this.systemName = systemName;
     }
-    public String getSystemtransactions() {
-        return systemtransactions;
+    public String getSystemTransactions() {
+        return systemTransactions;
     }
-    public void setSystemtransactions(String systemtransactions) {
-        this.systemtransactions = systemtransactions;
+    public void setSystemTransactions(String systemTransactions) {
+        this.systemTransactions = systemTransactions;
     }
-    public String getSystemprivileges() {
-        return systemprivileges;
+    public String getSystemPrivileges() {
+        return systemPrivileges;
     }
-    public void setSystemprivileges(String systemprivileges) {
-        this.systemprivileges = systemprivileges;
+    public void setSystemPrivileges(String systemPrivileges) {
+        this.systemPrivileges = systemPrivileges;
     }
-    public String getSystemusergroup() {
-        return systemusergroup;
+    public String getSystemUserGroup() {
+        return systemUserGroup;
     }
-    public void setSystemusergroup(String systemusergroup) {
-        this.systemusergroup = systemusergroup;
+    public void setSystemUserGroup(String systemUserGroup) {
+        this.systemUserGroup = systemUserGroup;
     }
-    public String getSystemlocationgroup() {
-        return systemlocationgroup;
+    public String getSystemLocationGroup() {
+        return systemLocationGroup;
     }
-    public void setSystemlocationgroup(String systemlocationgroup) {
-        this.systemlocationgroup = systemlocationgroup;
+    public void setSystemLocationGroup(String systemLocationGroup) {
+        this.systemLocationGroup = systemLocationGroup;
     }
-    public String getUserid() {
-        return userid;
+    public String getUserId() {
+        return userId;
     }
-    public void setUserid(String userid) {
-        this.userid = userid;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
-    public String getUserfullname() {
-        return userfullname;
+    public String getUserFullName() {
+        return userFullName;
     }
-    public void setUserfullname(String userfullname) {
-        this.userfullname = userfullname;
+    public void setUserFullName(String userFullName) {
+        this.userFullName = userFullName;
     }
-    public String getUserrdofficecode() {
-        return userrdofficecode;
+    public String getUserRdOfficeCode() {
+        return userRdOfficeCode;
     }
-    public void setUserrdofficecode(String userrdofficecode) {
-        this.userrdofficecode = userrdofficecode;
+    public void setUserRdOfficeCode(String userRdOfficeCode) {
+        this.userRdOfficeCode = userRdOfficeCode;
     }
-    public String getUserofficecode() {
-        return userofficecode;
+    public String getUserOfficeCode() {
+        return userOfficeCode;
     }
-    public void setUserofficecode(String userofficecode) {
-        this.userofficecode = userofficecode;
+    public void setUserOfficeCode(String userOfficeCode) {
+        this.userOfficeCode = userOfficeCode;
     }
-    public String getClientlocation() {
-        return clientlocation;
+    public String getClientLocation() {
+        return clientLocation;
     }
-    public void setClientlocation(String clientlocation) {
-        this.clientlocation = clientlocation;
+    public void setClientLocation(String clientLocation) {
+        this.clientLocation = clientLocation;
     }
-    public String getLocationmachinenumber() {
-        return locationmachinenumber;
+    public String getLocationMachineNumber() {
+        return locationMachineNumber;
     }
-    public void setLocationmachinenumber(String locationmachinenumber) {
-        this.locationmachinenumber = locationmachinenumber;
+    public void setLocationMachineNumber(String locationMachineNumber) {
+        this.locationMachineNumber = locationMachineNumber;
     }
-    public String getTokenid() {
-        return tokenid;
+    public String getTokenId() {
+        return tokenId;
     }
-    public void setTokenid(String tokenid) {
-        this.tokenid = tokenid;
+    public void setTokenId(String tokenId) {
+        this.tokenId = tokenId;
     }
 
-    
+
 }
 

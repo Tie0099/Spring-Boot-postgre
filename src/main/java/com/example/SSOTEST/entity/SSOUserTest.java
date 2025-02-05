@@ -27,6 +27,7 @@ public class SSOUserTest {
     private String clientlocation;
     private String locationmachinenumber;
     private String tokenid;
+
     public LocalDateTime getRequestDate() {
         return requestDate;
     }
@@ -118,7 +119,6 @@ public class SSOUserTest {
         this.tokenid = tokenid;
     }
 
-    // Getters and Setters
     
 }
 

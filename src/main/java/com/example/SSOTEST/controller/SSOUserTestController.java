@@ -27,20 +27,20 @@ public class SSOUserTestController {
         try {
             SSOUserTest userTest = new SSOUserTest();
             
-            userTest.setSsotype(userTestRequest.getSsotype());
-            userTest.setSystemid(userTestRequest.getSystemid());
-            userTest.setSystemname(userTestRequest.getSystemname());
-            userTest.setSystemtransactions(userTestRequest.getSystemtransactions());
-            userTest.setSystemprivileges(userTestRequest.getSystemprivileges());
-            userTest.setSystemusergroup(userTestRequest.getSystemusergroup());
-            userTest.setSystemlocationgroup(userTestRequest.getSystemlocationgroup());
-            userTest.setUserid(userTestRequest.getUserid());
-            userTest.setUserfullname(userTestRequest.getUserfullname());
-            userTest.setUserrdofficecode(userTestRequest.getUserrdofficecode());
-            userTest.setUserofficecode(userTestRequest.getUserofficecode());
-            userTest.setClientlocation(userTestRequest.getClientlocation());
-            userTest.setLocationmachinenumber(userTestRequest.getLocationmachinenumber());
-            userTest.setTokenid(userTestRequest.getTokenid());
+            userTest.setSsotype(userTestRequest.getSsoType());
+            userTest.setSystemid(userTestRequest.getSystemId());
+            userTest.setSystemname(userTestRequest.getSystemName());
+            userTest.setSystemtransactions(userTestRequest.getSystemTransactions());
+            userTest.setSystemprivileges(userTestRequest.getSystemPrivileges());
+            userTest.setSystemusergroup(userTestRequest.getSystemUserGroup());
+            userTest.setSystemlocationgroup(userTestRequest.getSystemLocationGroup());
+            userTest.setUserid(userTestRequest.getUserId());
+            userTest.setUserfullname(userTestRequest.getUserFullName());
+            userTest.setUserrdofficecode(userTestRequest.getUserRdOfficeCode());
+            userTest.setUserofficecode(userTestRequest.getUserRdOfficeCode());
+            userTest.setClientlocation(userTestRequest.getClientLocation());
+            userTest.setLocationmachinenumber(userTestRequest.getLocationMachineNumber());
+            userTest.setTokenid(userTestRequest.getTokenId());
             
             userTest.setRequestDate(LocalDateTime.now());
     

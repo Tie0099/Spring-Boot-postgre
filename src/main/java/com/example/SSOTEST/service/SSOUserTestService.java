@@ -12,17 +12,13 @@ public class SSOUserTestService {
     @Autowired
     private SSOUserTestRepository repository;
 
-
     public SSOUserTest saveSSOUserTest(SSOUserTest userTest) {
         if (userTest.getRequestDate() == null) {
-            userTest.setRequestDate(java.time.LocalDateTime.now()); 
+            userTest.setRequestDate(java.time.LocalDateTime.now());
         }
         
-        userTest.setTokenid(generateToken(userTest));
-        return repository.save(userTest);  
-    }
+        userTest.setTokenid(userTest.getTokenid());
 
-    private String generateToken(SSOUserTest userTest) {
-        return "dummy-token";
+        return repository.save(userTest);  
     }
 }
