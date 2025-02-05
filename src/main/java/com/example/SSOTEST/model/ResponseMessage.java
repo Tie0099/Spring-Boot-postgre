@@ -1,0 +1,67 @@
+package com.example.SSOTEST.model;
+
+public class ResponseMessage {
+
+    private String responseCode;
+    private String responseMessage;
+    private ResponseData responseData;
+
+    public ResponseMessage(String responseCode, String responseMessage, String userId, String tokenId) {
+        this.responseCode = responseCode;
+        this.responseMessage = responseMessage;
+        this.responseData = new ResponseData(userId, tokenId);
+    }
+
+    // Getters and Setters
+    public String getResponseCode() {
+        return responseCode;
+    }
+
+    public void setResponseCode(String responseCode) {
+        this.responseCode = responseCode;
+    }
+
+    public String getResponseMessage() {
+        return responseMessage;
+    }
+
+    public void setResponseMessage(String responseMessage) {
+        this.responseMessage = responseMessage;
+    }
+
+    public ResponseData getResponseData() {
+        return responseData;
+    }
+
+    public void setResponseData(ResponseData responseData) {
+        this.responseData = responseData;
+    }
+
+    // Inner class for responseData
+    public static class ResponseData {
+        private String userId;
+        private String tokenId;
+
+        public ResponseData(String userId, String tokenId) {
+            this.userId = userId;
+            this.tokenId = tokenId;
+        }
+
+        // Getters and Setters
+        public String getUserId() {
+            return userId;
+        }
+
+        public void setUserId(String userId) {
+            this.userId = userId;
+        }
+
+        public String getTokenId() {
+            return tokenId;
+        }
+
+        public void setTokenId(String tokenId) {
+            this.tokenId = tokenId;
+        }
+    }
+}
