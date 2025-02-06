@@ -37,7 +37,7 @@ mvn spring-boot:run
 ```
 ### ขั้นตอนที่ 5: ทดสอบการทำงาน
 
-เข้าถึง Swagger UI ได้ที่: http://localhost:8080/apitest/swagger-ui.html
+เข้าถึง Swagger UI ได้ที่: http://localhost:8080/swagger-ui/index.html
 
 ตัวอย่าง Body (JSON):
 
